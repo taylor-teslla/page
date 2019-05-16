@@ -99,7 +99,6 @@ h1
 }
 
 /* ########################################################### */
-
 /* Pagina principal */
 
 .main-content
@@ -108,9 +107,10 @@ h1
     width: 80%;
     margin: 0 auto;
 }
+
 .main-content h1
 {
-	font-size:3em;
+    font-size:4em;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -119,7 +119,7 @@ h1
 
 .main-content h2
 {
-	font-size:1.5em;
+    font-size:3em;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -154,7 +154,6 @@ h1
 
 .main-content-section-fotos-card img
 {
-    /* width: 0; */
     max-height: 300px;
     border-radius: 20px;
     box-sizing: border-box;
@@ -169,7 +168,6 @@ h1
     align-items: center;
     margin-bottom: 3em;
     border-bottom-color: #333;
-    
 }
 
 .posts-section-txt
@@ -180,18 +178,13 @@ h1
 .posts-section-img
 {
     width: 40%;
-    /* background-color: red; */
-    /* min-height: 250px; */
-    /* max-height: 300px; */
-    /* background-image: url(../img/posts/twibi-mesh/Twibi-Giga.jpg); */
-    /* background-size: cover;  */
 }
 
 .posts-section-txt p
 {
     padding: 0 1em;
     text-indent: 1.5em;
-	font-size:14px;
+    font-size:2em;
 }
 
 .posts-section-img img
@@ -225,7 +218,6 @@ h1
     display: inline-block;
     padding: 5px;
 }
-
 
 .fa-github
 {
@@ -312,7 +304,7 @@ h1
     margin-top: 20px;
     text-align: center;
     width: 90%;
-	font-size:14px;
+    font-size:14px;
 }
 
 .posts-section-img
