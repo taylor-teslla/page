@@ -1,0 +1,375 @@
+/* Telas maiores que 1024px */
+body
+{
+    font-family: Nunito, Karla, Open Sans, Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+    color: #787878;
+    font-weight: normal;
+    margin: 1em 0;
+    letter-spacing: 2px;
+}
+
+h1
+{
+    color: #787878;
+    font-weight: normal;
+    margin: 1em 0;
+    letter-spacing: 4px;
+}
+
+.main-header
+{
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 25%;
+    background-position: left top;
+    background-size: auto, cover;
+    background-image: url(../img/bg01.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.shining
+{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+
+    /*background: #dadada;*/
+}
+
+.shining p
+{
+    text-align: center;
+    position: relative;
+    font-family:'Concert One', cursive;
+    font-size: 40px;
+    letter-spacing: 6px;overflow: hidden;
+    background: linear-gradient(90deg,#333, #fff, #ccc);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes animate
+{
+     0%
+    {
+        background-position: -500%;
+    }
+    100%
+    {
+        background-position: 500%;
+    }
+}
+
+/* Foto e informações de perfil */
+
+.main-header-profile
+{
+    width: 100%;
+    height: 70%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.main-header-profile img
+{
+    width: 130px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.main-header-profile p
+{
+    font-size: 16px;
+    color: rgba(255,255, 255,.5)
+}
+
+/* ########################################################### */
+
+/* Pagina principal */
+
+.main-content
+{
+    padding: 0px 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+.main-content h1
+{
+	font-size:3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content h2
+{
+	font-size:1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date
+{
+    font-size: 1.5vh;
+    font-style: italic;
+    text-align: center;
+}
+
+.main-content-section
+{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.main-content-section-fotos
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content-section-fotos-card
+{
+    display: inline-block;
+    width: 33%;
+}
+
+.main-content-section-fotos-card img
+{
+    /* width: 0; */
+    max-height: 300px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.posts
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+    border-bottom-color: #333;
+    
+}
+
+.posts-section-txt
+{
+    width: 60%;
+}
+
+.posts-section-img
+{
+    width: 40%;
+    /* background-color: red; */
+    /* min-height: 250px; */
+    /* max-height: 300px; */
+    /* background-image: url(../img/posts/twibi-mesh/Twibi-Giga.jpg); */
+    /* background-size: cover;  */
+}
+
+.posts-section-txt p
+{
+    padding: 0 1em;
+    text-indent: 1.5em;
+}
+
+.posts-section-img img
+{
+    width: 100%;
+}
+
+/* ########################################################### */
+
+/* Rodapé redes_sociais */
+
+.main-footer-mobile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-footer-mobile ul
+{
+    list-style: none;
+    padding: 0 3em;
+
+}
+
+.main-footer-mobile ul li
+{
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.fa-github
+{
+    font-size: 30px;
+    color:rgba(55,55, 55,.5);
+}
+
+.fa-facebook
+{
+    font-size: 30px;
+    color:rgba(55,55, 55,.5);
+}
+
+.fa-instagram
+{
+    font-size: 30px;
+    color:rgba(55,55,55,.5);
+}
+
+.fa-linkedin
+{
+    font-size: 30px;
+    color:rgba(55,55, 55,.5);
+}
+
+.fa-twitter-square
+{
+    font-size: 30px;
+    color:rgba(55,55, 55,.5);
+}
+
+.txt-footer 
+{
+    padding: 0 3em;
+}
+
+/* ########################################################### */
+
+/* Telas menores que 1024px */
+
+@media (max-width: 1024px) {
+.main-header
+{
+    margin-left: 110%;
+}
+
+.main-content
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content-section-fotos
+{
+
+}
+
+.main-content-section-fotos-card
+{
+    margin: 0 auto;
+    display: inline;
+}
+
+.main-content-section-fotos-card img
+{
+    max-height: 900px;
+    max-width: 400px;
+}
+
+.posts
+{
+    width: 100%;
+    padding: 30px 30px;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.posts-section-txt
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+}
+
+.posts-section-img
+{
+    display:block;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+}
+
+.main-footer-mobile
+{
+    display: block;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-footer-mobile ul
+{
+    list-style: none;
+    padding: 0;
+
+}
+
+.main-footer-mobile ul li
+{
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.fa-github
+{
+    font-size: 30px;
+    color:rgba(55,55, 55,.5);
+}
+
+.fa-facebook
+{
+    font-size: 30px;
+    color:rgba(55,55, 55,.5);
+}
+
+.fa-instagram
+{
+    font-size: 30px;
+    color:rgba(55,55,55,.5);
+}
+
+.fa-linkedin
+{
+    font-size: 30px;
+    color:rgba(55,55, 55,.5);
+}
+
+.fa-twitter-square
+{
+    font-size: 30px;
+    color:rgba(55,55, 55,.5);
+}
