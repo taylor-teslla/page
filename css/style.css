@@ -21,6 +21,11 @@ h1
     letter-spacing: 4px;
 }
 
+.subtitle
+{
+    font-size: .75em;
+}
+
 .main-header
 {
     margin: 0 auto;
@@ -165,6 +170,15 @@ h1
     background-color: aquamarine;   
 }
 
+.formacao{
+    padding: 3em;
+
+}
+
+.formacao h2, h3, p{
+    padding-top: 1em;
+}
+
 /* ########################################################### */
 
 /* Rodapé redes_sociais */
@@ -243,6 +257,17 @@ h1
 /* Telas menores que 1024px */
 
 @media (max-width: 1024px) {
+
+h1, h2, h3, h4, h5, h6, p
+{
+    font-size: 2.2vh;
+}
+
+.subtitle
+{
+    font-size: 1.5vh;
+}
+
 .main-header
 {
     margin-left: 110%;
