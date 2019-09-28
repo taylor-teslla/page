@@ -84,17 +84,17 @@ h1
 .main-header-profile
 {
     width: 100%;
-    height: 70%;
-    padding: 10px 50px;
+    height: 55%;
+    /*padding: 10px 50px;*/
     box-sizing: border-box;
     text-align: center;
 }
 
 .main-header-profile img
 {
-    width: 130px;
+    width: 25%;
     border-radius: 50%;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
 .main-header-profile p
@@ -185,22 +185,26 @@ h1
 
 .main-footer{
 
-    height: 70px;
-    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
     text-align: center;
+    
+   
 }
 
 .main-footer ul
 {
     list-style: none;
-    padding: 0;
+    padding: 3px;
 
 }
 
 .main-footer ul li
 {
     display: inline-block;
-    padding: 5px;
+    padding: 0;
 }
 
 .main-footer ul li a:hover
@@ -378,4 +382,16 @@ h1, h2, h3, h4, h5, h6, p
 {
     font-size: 50px;
     color:rgba(55,55, 55,.5);
+}
+
+.main-footer{
+    height: 0;
+    width: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    text-align: center;
+    
+   
 }
