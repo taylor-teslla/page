@@ -78,8 +78,8 @@
         padding-right: 0;
         justify-content: center;
         align-items: center;
-        height: 350px;
-        border-radius: 30px;
+        height: 15vh;;
+        border-radius: 1vw;
         box-sizing: border-box;
     }
     .main-content-section-menu ul
@@ -102,7 +102,7 @@
         position: relative;
         text-decoration: none;
         padding: 5px;
-        font-size: 30px;
+        font-size: 5vw;
         font-family: 'Nunito', sans-serif;
         color: #000070;
         text-transform: uppercase;
