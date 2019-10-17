@@ -129,18 +129,20 @@
 
     .hide-menu-btn{
         position: absolute;
-        top: 2vh;
-        right: 2vh;
+        top: 2.5vh;
+        right: 2.5vh;
         font-size: 4vh;
         color:#fff;
     }
 
     .show-menu-btn {
         position: absolute;
-        top: 2vh;;
-        left: 50%;
-        font-size: 4vh;
+        top: 2vh;
+        left: 45%;
+        font-size: 5vh;
         color: #777;
+        padding: 0;
+        align-items: center;
     }
 
     .show-menu-btn i{
