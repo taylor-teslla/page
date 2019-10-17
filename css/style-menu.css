@@ -67,7 +67,7 @@
     transform-origin: bottom;
     transform: scaleX(1);
 }
-}
+
 #chk{
     position: absolute;
     right: -100%;
@@ -82,7 +82,7 @@
     position: absolute;
     right: -100%;
 }
-
+}
 
 /* para telas menores que 1024px */
 
@@ -91,7 +91,7 @@
     .main-content-section-menu
     {
         position: fixed;
-         margin: 0;
+        margin: 0;
         padding-right: 0;
         height: 100vh;
         width: 100%; 
@@ -110,6 +110,7 @@
         margin: 0 20px;
         transition: 0.5s;
         text-align: center;
+        padding: 3vh;
     }
     .main-content-section-menu a
     {
@@ -128,15 +129,15 @@
 
     .hide-menu-btn{
         position: absolute;
-        top: 10vh;
-        right: 10vh;
+        top: 2vh;
+        right: 2vh;
         font-size: 4vh;
         color:#fff;
     }
 
     .show-menu-btn {
         position: absolute;
-        top: 10vh;
+        top: 2vh;;
         left: 50%;
         font-size: 4vh;
         color: #777;
@@ -145,8 +146,6 @@
     .show-menu-btn i{
         line-height: 50px;
     }
-
-
 
     .main-content-section-menu a:hover, 
     .show-menu-btn:hover, 
@@ -163,3 +162,4 @@
     #chk:checked ~ .main-content-section-menu{
         right: 0;
     }
+}
